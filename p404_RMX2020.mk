@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 $(call inherit-product, device/realme/RMX2020/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/p404/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := p404_RMX2020
